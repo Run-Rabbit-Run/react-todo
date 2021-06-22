@@ -1,0 +1,27 @@
+.task-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  .input {
+    width: 85%;
+    margin-right: 10px;
+    padding: 8px 10px;
+    border: 2px solid rgb(253, 192, 139);
+    border-radius: 12px;
+    background-color: peachpuff;
+    
+    &:focus {
+      outline: none;
+      border-color: rgb(253, 157, 72);
+    }
+  }
+
+  .submit-button {
+    font-weight: 700;
+    color: rgb(87, 73, 61);
+    padding: 8px;
+    border-radius: 12px;
+  }
+}
